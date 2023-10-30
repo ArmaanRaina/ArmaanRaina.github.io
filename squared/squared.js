@@ -103,7 +103,7 @@ var enter_fullscreen = {
 var get_participant_id = {
 	type: jsPsychSurveyText,
 	questions: [
-		{prompt: 'Please enter the participant ID:', required: true, name: 'participant_id'}
+		{prompt: 'Please enter your NCSU student ID:', required: true, name: 'student_ID'}
 	],
 	on_finish: function(data) {
 		jsPsych.data.addProperties({
@@ -116,7 +116,8 @@ var get_participant_id = {
 
 // get_location: Introduces option to run program (and save files) locally or to run it online and collect data through a platform
 // Comment out get_location object if implementing a default of running the task online
-var get_location = {
+
+/*var get_location = {
 	type: jsPsychSurveyMultiChoice,
 	questions: [{
 			prompt: "Where are you running the task?",
@@ -128,7 +129,7 @@ var get_location = {
 		online = data.response.client == "Online (cognition.run, gorilla.sc, MTurk link)" ? 1 : 0;
 	}
 }
-
+*/
 var welcome = {
 	type: jsPsychHtmlButtonResponse,
 	stimulus: "<p style='font-size:25px;'><b>Colors and Arrows Tasks</b></p>" +
