@@ -133,7 +133,7 @@ var get_participant_id = {
 */
 var welcome = {
 	type: jsPsychHtmlButtonResponse,
-	stimulus: "<p style='font-size:25px;'><b>Colors and Arrows Tasks</b></p>" +
+	stimulus: "<p style='font-size:25px;'><b>Stroop</b></p>" +
 			  "<p style='font-size:25px;'>Click on START to read the instructions.</p>",
 	choices: ["START"]
 }
@@ -1133,9 +1133,9 @@ var simon_task = {timeline: [intro_simon, threetwoone, block_simon_practice, pre
 var conclusion = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function() { return '<p style="font-size:25px;"> You earned the following points in the three tasks: <br>' +
-	          '<p> Colors Task: ' + total_stroop + ' points</p>' +
-			  '<p> Multiple Arrows Task: ' + total_flanker + ' points</p>' +
-			  '<p> Single Arrow Task: ' + total_simon + ' points</p>' +
+	          '<p> Stroop: ' + total_stroop + ' points</p>' +
+			  '<p> Flanker: ' + total_flanker + ' points</p>' +
+			  '<p> Simon: ' + total_simon + ' points</p>' +
 			  '<p style="font-size:25px;">You are now finished with this set of tasks.</p>' +
               '<p style="font-size:25px;"><b> Press any key to exit.</b></p>' }
 }
