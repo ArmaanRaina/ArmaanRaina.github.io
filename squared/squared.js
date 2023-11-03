@@ -133,7 +133,7 @@ var get_participant_id = {
 */
 var welcome = {
 	type: jsPsychHtmlButtonResponse,
-	stimulus: "<p style='font-size:25px;'><b>Stroop</b></p>" +
+	stimulus: "<p style='font-size:25px;'><b>Stroop Task</b></p>" +
 			  "<p style='font-size:25px;'>Click on START to read the instructions.</p>",
 	choices: ["START"]
 }
