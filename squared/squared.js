@@ -1132,7 +1132,8 @@ var simon_task = {timeline: [intro_simon, threetwoone, block_simon_practice, pre
 // Ending screen
 var conclusion = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: function() { return '<p style="font-size:25px;"> You earned the following points in the three tasks: <br>' +
+    stimulus: function() { return  '<p style="font-size:25px;"> Please write down these scores and input them on the next page. <br>' +
+	    '<p style="font-size:25px;"> You earned the following points in the three tasks: <br>' +
 	          '<p> Stroop: ' + total_stroop + ' points</p>' +
 			  '<p> Flanker: ' + total_flanker + ' points</p>' +
 			  '<p> Simon: ' + total_simon + ' points</p>' +
