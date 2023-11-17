@@ -195,7 +195,7 @@ var instructions_stroop_1 = {
 				<div><button class="choiceStyle" style="font-family: Open Sans; font-weight: 1000; color: #0000FF;"><div style="color: red; font-size: 34pt; font-weight: 200;">&#10008;</div>RED<div style="font-size: 9pt; color: white; font-weight: normal;">WRONG ANSWER<br>(Meaning does not match top word's color)</div></button><div class="space"></div>
 				<button class="choiceStyle" style="font-family: Open Sans; font-weight: 1000; color: #ff0302;"><div style="color: #1ED760; font-size: 34pt; font-weight: 200;">&#10004;</div>BLUE<div style="font-size: 9pt; color: white; font-weight: normal;">RIGHT ANSWER<br>(Meaning matches top word's color)</div></button></div>`,
 	choices: ["Begin practice"],
-	button_html: `<div style='height: 70px;'></div><button class="defaultButton">%choice%</button>`,
+	button_html: `<div style='height: 40px;'></div><button class="defaultButton">%choice%</button>`,
 	on_finish: function(data) {
 		data.task = "stroop";
 	}
