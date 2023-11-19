@@ -191,11 +191,11 @@ var instructions_stroop_1 = {
 				as possible.</p>
 				<div style='height: 5px;'></div>
 				<p style='font-size: 9pt;'>WORD IS IN BLUE COLOR</p>
-				<span style='font-size: 54pt; font-weight: 1000; color: #0000FF;'>RED</span><p><br></p>
+				<span style='font-size: 30pt; font-weight: 1000; color: #0000FF;'>RED</span><p><br></p>
 				<div><button class="choiceStyle" style="font-family: Open Sans; font-weight: 1000; color: #0000FF;"><div style="color: red; font-size: 20pt; font-weight: 200;">&#10008;</div>RED<div style="font-size: 9pt; color: white; font-weight: normal;">WRONG ANSWER<br>(Meaning does not match top word's color)</div></button><div class="space"></div>
 				<button class="choiceStyle" style="font-family: Open Sans; font-weight: 1000; color: #ff0302;"><div style="color: #1ED760; font-size: 20pt; font-weight: 200;">&#10004;</div>BLUE<div style="font-size: 9pt; color: white; font-weight: normal;">RIGHT ANSWER<br>(Meaning matches top word's color)</div></button></div>`,
 	choices: ["Begin practice"],
-	button_html: `<div style='height: 10px;'></div><button class="defaultButton">%choice%</button>`,
+	button_html: `<div style='height: 5px;'></div><button class="defaultButton">%choice%</button>`,
 	on_finish: function(data) {
 		data.task = "stroop";
 	}
