@@ -249,7 +249,8 @@ var instructions_stroop_2 = {
 				word is. Select that color from the two options below. DON'T pay attention to what<br>
 				the top word says or the color of the two options below. It's important to match the<br>
 				color of the top word with the meaning of the word below. You will have 90 seconds<br>
-				to earn as many points as possible.</p>
+				to earn as many points as possible<br>
+    				please scroll to the bottom and select I Understand. </p>
 				<div style='height: 100px;'></div>
 				<p style='font-size: 9pt;'>WORD IS IN BLUE COLOR</p>
 				<span style='font-size: 54pt; font-weight: 1000; color: #0000FF;'>RED</span><p><br></p>
@@ -591,7 +592,8 @@ var instructions_flanker_2 = {
 				middle arrow pointing in that direction. DON'T pay attention to the direction of the<br>
 				top middle arrow or the outside arrow direction of the two options below. It's<br>
 				important to match the top outside arrow direction with the middle arrow direction of<br>
-				the options below. You will have 90 seconds to earn as many points as possible.</p>
+				the options below. You will have 90 seconds to earn as many points as possible<br>
+    				please scroll to the bottom and select I Understand</p>
 				<div style='height: 75px;'></div>
 				<span style='font-size: 9pt;'>OUTSIDE ARROWS ARE POINTING LEFT</span><br>
 				<img src='` + mr_fl + `' width='290'><p><br></p>
@@ -902,7 +904,8 @@ var instructions_simon_2 = {
 	stimulus: `<p style='font-size: 15pt; text-align: left;'>That's it for practice. Please review the instructions one last time. Arrows will appear<br>
 				below on the right or the left. You must click the response option that says which<br>
 				direction the arrow is pointing. You have 90 seconds to earn as many points as<br>
-				possible.</p>
+				possible <br>
+    				Please scroll to the bottom and select I Understand </p>
 				<div style='height: 75px;'></div>
 				<span style='font-size: 9pt; text-align: left;'>ARROW IS POINTING LEFT</span><br>
 				<span style='display: flex; justify-content: left;'><img src='` + larr + `' height='70'></span><p></p>
@@ -1138,7 +1141,7 @@ var conclusion = {
 			  '<p> Flanker: ' + total_flanker + ' points</p>' +
 			  '<p> Simon: ' + total_simon + ' points</p>' +
 			  '<p style="font-size:25px;">You are now finished with this set of tasks.</p>' +
-              '<p style="font-size:25px;"><b> Press any key to exit.</b></p>' }
+              '<p style="font-size:25px;"><b> Please croll to the bottom and click the red arrow button to continue.</b></p>' }
 }
 
 var exit_fullscreen = {
