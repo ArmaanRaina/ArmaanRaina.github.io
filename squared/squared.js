@@ -249,8 +249,9 @@ var instructions_stroop_2 = {
 				word is. Select that color from the two options below. DON'T pay attention to what<br>
 				the top word says or the color of the two options below. It's important to match the<br>
 				color of the top word with the meaning of the word below. You will have 90 seconds<br>
-				to earn as many points as possible<br>
-    				please scroll to the bottom and select I Understand. </p>
+				to earn as many points as possible.<br>
+    
+    				Please scroll to the bottom and select "I understand". </p>
 				<div style='height: 100px;'></div>
 				<p style='font-size: 9pt;'>WORD IS IN BLUE COLOR</p>
 				<span style='font-size: 54pt; font-weight: 1000; color: #0000FF;'>RED</span><p><br></p>
