@@ -544,6 +544,8 @@ var instructions_flanker_1 = {
 				the two options below. It's important to match the top outside arrow direction with<br>
 				the middle arrow direction of the options below. We will begin with a practice round.<br>
 				You will have 30 seconds to earn as many points as possible.</p>
+    				<div style='height: 10px;'></div>
+    				<p style='font-size: 15pt; text-align: left;'>Please scroll to the bottom and select "I understand". </p>
 				<div style='height: 75px;'></div>
 				<span style='font-size: 9pt;'>OUTSIDE ARROWS ARE POINTING LEFT</span><br>
 				<img src='` + mr_fl + `' width='290'><p><br></p>
@@ -858,6 +860,8 @@ var instructions_simon_1 = {
 	stimulus: `<p style='font-size: 15pt; text-align: left;'>Arrows will appear below, on the right or the left. You must click the response option that<br>
 				says which direction the arrow is pointing. We will begin with a practice round. You<br>
 				will have 30 seconds to earn as many points as possible.</p>
+    				<div style='height: 10px;'></div>
+    				<p style='font-size: 15pt; text-align: left;'>Please scroll to the bottom and click “Begin practice.”</p>
 				<div style='height: 100px;'></div>
 				<span style='font-size: 9pt; text-align: left;'>ARROW IS POINTING LEFT</span><br>
 				<span style='display: flex; justify-content: left;'><img src='` + larr + `' height='70'></span><p></p>
@@ -1144,7 +1148,7 @@ var conclusion = {
 			  '<p> Flanker: ' + total_flanker + ' points</p>' +
 			  '<p> Simon: ' + total_simon + ' points</p>' +
 			  '<p style="font-size:25px;">You are now finished with this set of tasks.</p>' +
-              '<p style="font-size:25px;"><b> Please croll to the bottom and click the red arrow button to continue.</b></p>' }
+              '<p style="font-size:25px;"><b> Please scroll to the bottom and click the red arrow button to continue.</b></p>' }
 }
 
 var exit_fullscreen = {
