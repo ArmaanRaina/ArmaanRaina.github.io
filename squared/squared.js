@@ -545,7 +545,7 @@ var instructions_flanker_1 = {
 				the middle arrow direction of the options below. We will begin with a practice round.<br>
 				You will have 30 seconds to earn as many points as possible.</p>
     				<div style='height: 10px;'></div>
-    				<p style='font-size: 15pt; text-align: left;'>Please scroll to the bottom and select "I understand". </p>
+    				<p style='font-size: 15pt; text-align: left;'>Please scroll to the bottom and select "Begin Practice". </p>
 				<div style='height: 75px;'></div>
 				<span style='font-size: 9pt;'>OUTSIDE ARROWS ARE POINTING LEFT</span><br>
 				<img src='` + mr_fl + `' width='290'><p><br></p>
